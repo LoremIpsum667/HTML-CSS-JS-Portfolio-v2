@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/champi.png"/>
+    <link rel="stylesheet" href="./assets/css/css.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="./assets/js/index.js" defer></script>
+    <title>{ CSS; }</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+          { CSS; }
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="./index.html"><li>" ACCUEIL "</li></a>
+            <a href="./html.html"><li>&lt; HTML /&gt;</li></a>
+            <a href="./css.html"><li id="active">{ CSS; }</li></a>
+            <a href="./javascript.html"><li>( JAVASCRIPT )</li></a>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul>
+                <h4><a href="./index.html">Acceuil</a></h4>
+                <li><a href="./index.html#aDev">- Le développement</a></li>
+                <li><a href="./index.html#aFrontBack">- FrontEnd et BackEnd</a></li>
+                <li><a href="./index.html#aOutLang">- Outils et Langages</a></li>
+                <h4><a href="./html.html">HTML</a></h4>
+                <li><a href="./html.html#hQq">- Qu'es que le HTML</a></li>
+                <li><a href="./html.html#hAqs">- A quoi ca sert</a></li>
+                <li><a href="./html.html#hOdh">- Les origines du HTML</a></li>
+                <h4><a href="./css.html">CSS</a></h4>
+                <li><a href="./css.html#cQq">- Qu'es que le CSS</a></li>
+                <li><a href="./css.html#cHdc">- L'histoire du CSS</a></li>
+                <li><a href="./css.html#cAqs">- A quoi ca sert</a></li>
+                <h4><a href="./javascript.html">JavaScript</a></h4>
+                <li><a href="./javascript.html#jQq">- Qu'es que le JavaScript</a></li>
+                <li><a href="./javascript.html#jV">- Les variables</a></li>
+                <li><a href="./javascript.html#jC">- Les conditions</a></li>
+                <li><a href="./javascript.html#jB">- Les boucles</a></li>
+                <li><a href="./javascript.html#jF">- Les fonctions</a></li>
+            </ul>
+        </aside>
+        <main>
+            <div class="first_div">
+                <img class="first_img" src="assets/img/reel_css.gif" alt="code" width="250" height="300">
+                <h2 class="different_tittle">Le <span class="light_fuchsia">CSS</span>: <span
+                        class="light_green">style</span>; </h2>
+            </div>
+            <h1 id="cQq"><span class="lilac_neon">.définition</span> {</h1>
+            <p>
+                <span class="light_fuchsia">CSS</span> est l’acronyme de <span class="light_green">« Cascading Style
+                    Sheets »</span> ce qui signifie <span class="light_green">«
+                    feuille de style en cascade »</span>. Le <span class="light_fuchsia">CSS</span>
+                correspond à un langage <span class="sky">informatique</span> permettant de mettre en forme des pages
+                web <span class="orange_neon">(HTML ou XML)</span>. Ce
+                langage est donc <span class="lilac_neon">composé</span> des fameuses <span class="light_green"> «
+                    feuilles
+                    de style en cascade »</span> également <span class="blue_sky">appelées</span> fichiers <span
+                    class="light_fuchsia">CSS</span>
+                (.css</span>) et contient des éléments de <span class="lilac_neon">codage</span>.
+            </p>
+            <h1>}</h1>
+            <div class="first_div">
+                <img class="first_img" src="assets/img/wip.gif" alt="code" width="250" height="300">
+                <h2 class="different_tittle" id="cHdc">L'histoire du <span class="light_fuchsia">CSS</span>;</h2>
+            </div>
+            <h1><span class="lilac_neon">.historique</span> {</h1>
+            <p>
+                en <span class="blue_sky">1994-1995</span>, que le tout nouveau <span class="lilac_neon">Netscape
+                    Navigator</span> introduit les <span class="light_fuchsia">premiers</span> éléments <span
+                    class="orange_neon">HTML</span> de
+                présentation à l'initiative de <span class="blue_sky">Marc Andreessen</span>, tandis qu'apparaissent
+                <span class="light_fuchsia">concurremment</span> les premières
+                propositions de <span class="light_green">styles externes</span>:
+            </p>
+            <ul class="list">
+                <li>- le <span class="light_green">« stylesheet proposal »</span> <span class="blue_sky">de Pei Wei
+                        (créateur de Viola).</span></li><br>
+                <li>- les <span class="light_green">« Stylesheets for</span> <span class="orange_neon">HTML</span><span
+                        class="light_green">»</span> <span class="blue_sky">de
+                        Robert
+                        Raisch (O'Reilly).</span></li>
+                <br>
+                <li>- les <span class="light_green">« Cascading</span> <span class="orange_neon">HTML</span> <span
+                        class="light_green">Style Sheets »</span> <span class="blue_sky">(CHSS)
+                        d'Håkon Wium Lie.</span></li>
+            </ul>
+            <p>
+                une <span class="light_fuchsia">troisième voie</span> de développement est <span
+                    class="light_fuchsia">également</span> ouverte à la
+                même époque:
+                le langage de
+                transformation
+                <span class="orange_neon">DSSSL</span> des documents <span class="light_green">SGML</span>, élaboré par
+                <span class="blue_sky">James Clark</span>, <span class="light_green">suggère</span> la
+                possibilité</span> d'un langage de <span class="sky">styles</span>
+                qui ne
+                soit
+                pas seulement <span class="light_fuchsia">descriptif</span>, et se rapproche d'un <span
+                    class="lilac_neon">véritable</span> langage
+                de <span class="orange_neon">programmation</span>. Cette voie est
+                suivie
+                par <span class="light_green">Netscape</span>, qui propose en <span class="sky">1996</span> au <span
+                    class="lilac_neon">W3C</span> les <span class="light_green">« JavaScript-Based Style Sheets
+                    »(JSSS)</span>, implémentées par
+                <span class="blue_sky">Netscape Navigator 4</span> en <span class="light_fuchsia">1997</span>.<br>
+                <br>
+                les origines des <span class="light_fuchsia">CSS</span> sont donc liées à trois possibilités
+                majeures :
+            </p>
+            <ul class="list">
+                <li>- <span class="orange_neon">HTML</span> est-il un <span class="light_fuchsia">langage</span> de
+                    structuration ou un <span class="light_green">langage</span> mixte
+                    de
+                    mise en <span class="blue_sky">forme</span> et de structuration ?
+                </li><br>
+                <li>- les choix de <span class="light_green">présentation</span> de l'auteur doivent-ils avoir la <span
+                        class="lilac_neon">primauté</span> sur ceux de l'<span class="sky">utilisateur</span>
+                    ?
+                </li><br>
+                <li>- la <span class="light_fuchsia">réponse</span> aux besoins est-elle un <span
+                        class="lilac_neon">langage</span> de description de la mise en <span
+                        class="blue_sky">forme</span> ou un langage de
+                    <span class="light_green">transformation</span> ?
+                </li>
+            </ul>
+            <h1>}</h1>
+            <div class="first_div">
+                <h2 id="cAqs"><span class=""></span>A quoi <span class="light_fuchsia">sert</span> le</h2>
+                <img class="second_img" src="assets/img/css.gif" alt="code" width="300" height="300">
+                <h2>?</h2>
+            </div>
+            <h1><span class="lilac_neon">.explication</span> {</h1>
+            <p>
+                le <span class="light_fuchsia">CSS</span> définit <span class="light_green">seulement</span> la
+                structure et la présentation d'un
+                <span class="sky">contenu</span>
+                de site <span class="lilac_neon">web</span> et n'a rien a voir
+                avec le <span class="blue_sky">design</span>.
+                Une seule feuille <span class="light_fuchsia">CSS</span> peut controler la police, le <span class="orange_neon">positionnement</span>,
+                la couleur, et le style des
+                informations de tout un <span class="lilac_neon">site</span>. <br>
+                <br>
+                voici <span class="light_green">6 exemples</span> de <span class="blue_sky">l'utilisation</span> des feuilles <span class="light_fuchsia">CSS</span>:
+            </p>
+            <ul class="list">
+                <li>- les pages <span class="sky">web</span> se chargent plus <span class="light_green">rapidement</span> et utilisent moins de <span class="light_fuchsia">bande</span> passante.</li><br>
+                <li>- il est <span class="light_green">compatible</span> avec tous les <span class="orange_neon">navigateurs</span>.</li><br>
+                <li>- peut etre <span class="lilac_neon">utilisé</span> pour créer des pages <span class="sky">web</span> faciles a <span class="light_green">imprimer</span>.</li><br>
+                <li>- permet à <span class="orange_neon">l'utilisateur</span> de <span class="light_fuchsia">personnaliser</span> une page <span class="light_green">web</span>.</li><br>
+                <li>- <span class="light_green">facilite</span> le <span class="blue_sky">positionnement</span> dans les moteurs de <span class="lilac_neon">recherche</span>.</li><br>
+                <li>- le <span class="light_fuchsia">CSS</span> facilite la <span class="light_green">portabilité</span> du <span class="lilac_neon">contenu</span>.</li>
+            </ul>
+            <h1>}</h1>
+        </main>
+    </div>
+    <footer id="footer">
+        <p>Copyright 2021 - Yahia - Blondin - Axel</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- 15/10/21 -->

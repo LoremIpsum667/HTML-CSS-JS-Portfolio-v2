@@ -1,0 +1,56 @@
+body {
+  --blue: rgb(119, 158, 240);
+  --pink: rgb(187, 154, 247);
+  --yellow: rgb(255, 215, 0);
+  --beige: rgb(224, 175, 104);
+  --blue-light: rgb(119, 130, 162);
+  --green: rgb(158, 206, 106);
+  --pink-dark: rgb(157, 124, 216);
+  --turquoise: rgb(14, 168, 196);
+  --light: rgb(136, 219, 253);
+  --orange: rgb(255, 158, 100);
+}
+
+span.pink {
+  color: var(--pink);
+}
+
+span.blue {
+  color: var(--blue);
+}
+
+span.yellow {
+  color: var(--yellow);
+}
+
+span.beige {
+  color: var(--beige);
+}
+
+span.blue-light {
+  color: var(--blue-light);
+}
+
+span.green {
+  color: var(--green);
+}
+
+span.pink-dark {
+  color: var(--pink-dark);
+}
+
+span.turquoise {
+  color: var(--turquoise);
+}
+
+span.light {
+  color: var(--light);
+}
+
+span.orange {
+  color: var(--orange);
+}
+
+p {
+  color: var(--light);
+}

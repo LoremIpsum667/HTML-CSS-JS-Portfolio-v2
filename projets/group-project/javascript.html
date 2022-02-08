@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/javascript.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/champi.png"/>
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="./assets/js/index.js" defer></script>
+    <title>( JAVASCRIPT )</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            ( JAVASCRIPT )
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="./index.html">
+                <li>" ACCUEIL "</li>
+            </a>
+            <a href="./html.html">
+                <li>&lt; HTML /&gt;</li>
+            </a>
+            <a href="./css.html">
+                <li>{ CSS; }</li>
+            </a>
+            <a href="./javascript.html">
+                <li id="active">( JAVASCRIPT )</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul>
+                <h4><a href="./index.html">Acceuil</a></h4>
+                <li><a href="./index.html#aDev">- Le développement</a></li>
+                <li><a href="./index.html#aFrontBack">- FrontEnd et BackEnd</a></li>
+                <li><a href="./index.html#aOutLang">- Outils et Langages</a></li>
+                <h4><a href="./html.html">HTML</a></h4>
+                <li><a href="./html.html#hQq">- Qu'es que le HTML</a></li>
+                <li><a href="./html.html#hAqs">- A quoi ca sert</a></li>
+                <li><a href="./html.html#hOdh">- Les origines du HTML</a></li>
+                <h4><a href="./css.html">CSS</a></h4>
+                <li><a href="./css.html#cQq">- Qu'es que le CSS</a></li>
+                <li><a href="./css.html#cHdc">- L'histoire du CSS</a></li>
+                <li><a href="./css.html#cAqs">- A quoi ca sert</a></li>
+                <h4><a href="./javascript.html">JavaScript</a></h4>
+                <li><a href="./javascript.html#jQq">- Qu'es que le JavaScript</a></li>
+                <li><a href="./javascript.html#jV">- Les variables</a></li>
+                <li><a href="./javascript.html#jC">- Les conditions</a></li>
+                <li><a href="./javascript.html#jB">- Les boucles</a></li>
+                <li><a href="./javascript.html#jF">- Les fonctions</a></li>
+            </ul>
+        </aside>
+        <main>
+            <section>
+                <h2 id="jQq"><span class="pink-dark">const</span> <span class="pink">quesQue</span> = <span
+                        class="yellow">(</span> <span class="light">JAVASCRIPT</span> <span class="yellow">)</span></h2>
+                <p> <span class="green">JavaScript</span> est un <span class="beige">langage de programmation</span> qui
+                    ajoute de l'interactivité à votre <span class="blue">site web</span> <span
+                        class="yellow">(</span>par
+                    exemple : <span class="pink">jeux</span>, réponses quand on <span class="turquoise">clique</span>
+                    sur un bouton ou des <span class="pink-dark">données</span> entrées dans des formulaires,
+                    composition <span class="blue">dynamique</span>, animations<span class="yellow">)</span>.</p>
+            </section>
+            <section>
+                <h2 id="jV"><span class="yellow">Les variables</span></h2>
+                <p>Une variable est un <span class="blue">conteneur</span> pour une valeur, tel un <span
+                        class="beige">nombre</span> à utiliser pour une <span class="turquoise">addition</span>, ou une
+                    chaîne <span class="pink">devant</span> faire partie d'une phrase. Mais un <span
+                        class="yellow">aspect</span> spécial des <span class="blue-light">variables</span> est que les
+                    valeurs contenues peuvent changer. Voyons un <span class="green">exemple</span> simple :</p>
+                <div>
+                    <div class="code">
+                        <span class="pink-dark">let</span> <span class="pink">age</span> = <span
+                            class="orange">23</span>; <br>
+                        <span class="pink-dark">let</span> <span class="pink">mom</span> = '<span
+                            class="green">Axel</span>'; <br>
+                        <span class="pink">age</span> = <span class="pink">age</span> + <span class="orange">1</span>;
+                        <span class="blue-light">// 24</span> <br>
+                        <span class="pink-dark">let</span> <span class="pink">phrase</span> = <span
+                            class="pink">nom</span> + ' <span class="green">a</span> ' + <span class="pink">age</span> +
+                        ' <span class="green">ans</span>'; <span class="blue-light">// 'Axel a 24 ans'</span>
+                    </div>
+            </section>
+            <section>
+                <h2 id="jC"><span class="pink">Les conditions</span></h2>
+                <h3><span class="beige">if ... else</span></h3>
+                <p>L'instruction <span class="blue">if</span> exécute une <span class="orange">instruction</span> si une
+                    condition donnée est <span class="green">vraie</span> ou équivalente à vrai. Si la <span
+                        class="pink">condition</span> n'est pas vérifiée, il est <span class="turquoise">possible</span>
+                    d'utiliser une autre instruction.</p>
+                <p><span class="blue-light">Exemple 1:</span></p>
+                <div class="code">
+                    <span class="pink-dark">let</span> <span class="pink">axelEstBeau</span> = <span
+                        class="orange">true</span>; <br>
+                    <span class="blue">if</span> (<span class="pink">axelEstBeau</span> = <span
+                        class="orange">true</span>) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">c'est
+                        vrai</span>"); <br>
+                    } <span class="blue">else</span> { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">c'est
+                        faux</span>"); <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: c'est vrai</span> <br><br><br>
+                    <span class="pink-dark">let</span> <span class="pink">axelEstBeau</span> = <span
+                        class="orange">false</span>; <br>
+                    <span class="blue">if</span> (<span class="pink">axelEstBeau</span> = <span
+                        class="orange">true</span>) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">c'est
+                        vrai</span>"); <br>
+                    } <span class="blue">else</span> { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">c'est
+                        faux</span>"); <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: c'est faux</span>
+                </div>
+                <p><span class="blue-light">Exemple 2:</span></p>
+                <div class="code">
+                    <span class="pink-dark">let</span> <span class="pink">age</span> = <span class="orange">16</span>;
+                    <br>
+                    <span class="blue">if</span> (<span class="pink">age</span> &lt; <span class="orange">18</span>) {
+                    <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">tu est
+                        mineur</span>"); <br>
+                    } <span class="blue">else</span> { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">tu est
+                        majeur</span>"); <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: tu est majeur</span> <br><br><br>
+                    <span class="pink-dark">let</span> <span class="pink">age</span> = <span class="orange">64</span>;
+                    <br>
+                    <span class="blue">if</span> (<span class="pink">age</span> &lt; <span class="orange">18</span>) {
+                    <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">tu est
+                        mineur</span>"); <br>
+                    } <span class="blue">else</span> { <br>
+                    <span class="tab"></span><span class="light">console.log</span>("<span class="green">tu est
+                        majeur</span>"); <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: tu est mineur</span>
+                </div>
+                <h3><span class="beige">if ... else if ... else</span></h3>
+                <p>Bien qu'il n'y ait pas de <span class="green">mot-clé</span> elseif dans le langage <span
+                        class="yellow">JavaScript</span>, il est possible d'imbriquer des
+                    <span class="blue">instructions</span> if...else à la suite les une des autres en plaçant un <span
+                        class="pink">espace</span> entre else et le début de
+                    l'instruction if <span class="beige">imbriquée</span> :
+                </p>
+                <div class="code">
+                    <span class="pink-dark">let</span> <span class="pink">poissonPeches</span> = <span
+                        class="orange">27</span>; <br>
+                    <span class="blue">if</span> (<span class="pink">poissonPeches</span> &lt; <span
+                        class="orange">26</span>) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>('<span class="green">tu as pèché
+                        moins de 26
+                        poissons</span>'); <br>
+                    } <span class="blue">else if</span> (<span class="pink">poissonsPeches</span> === <span
+                        class="orange">26</span>) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>('<span class="green">tu as pèché
+                        exactement 26
+                        poissons</span>'); <br>
+                    } <span class="blue">else if</span> (<span class="pink">poissonsPeches</span> === <span
+                        class="orange">27</span>) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>('<span class="green">tu as pèché
+                        exactement 27
+                        poissons</span>'); <br>
+                    } <span class="blue">else</span> { <br>
+                    <span class="tab"></span><span class="light">console.log</span>('<span class="green">tu as pèché
+                        plus de 27
+                        poissons</span>'); <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: tu as pèché exactement 27 poissons</span>
+                </div>
+                <h3><span class="beige">switch</span></h3>
+                <p>L'instruction <span class="yellow">switch</span> évalue une <span class="blue">expression</span> et,
+                    selon le résultat obtenu et le cas <span class="beige">associé</span>, exécute
+                    les <span class="blue">instructions</span> correspondantes.</p>
+                <div class="code">
+                    <span class="pink-dark">let</span> <span class="pink">choix</span> = <span class="orange">3</span>;
+                    <br>
+                    <span class="blue">switch</span> (<span class="pink">choix</span>) { <br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">1</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">bleu</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <span
+                        class="blue-light">// break sert à sortir de la condition</span><br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">2</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">jaune</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">3</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">rouge</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">4</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">vert</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">5</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">violet</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <br>
+                    <span class="tab"></span><span class="blue">case</span> <span class="orange">6</span> : <br>
+                    <span class="tab"></span><span class="tab"></span><span class="light">console.log</span>('<span
+                        class="green">marron</span>'); <br>
+                    <span class="tab"></span><span class="tab"></span><span class="blue">break</span>; <br>
+                    } <br>
+                    <span class="blue-light">// Résultat: rouge</span>
+                </div>
+            </section>
+            <section>
+                <h2 id="jB"><span class="blue">Les boucles</span></h2>
+                <h3><span class="beige">while</span></h3>
+                <p>Une instruction <span class="blue">while</span> permet d'exécuter une <span
+                        class="pink">instruction</span> tant qu'une <span class="yellow">condition</span> donnée est
+                    vérifiée.
+                    Cette instruction <span class="orange">while</span> s'utilise de la façon suivante :</p>
+                <div class="code">
+                    <span class="pink-dark">let</span> <span class="pink">compteur</span> = <span
+                        class="orange">0</span>; <br>
+                    <span class="blue">while</span> (<span class="pink">compteur</span> &lt; <span
+                        class="orange">4</span>) { <br>
+                    <span class="tab"></span><span class="pink">compteur</span> = <span class="pink">compteur</span> +
+                    <span class="orange">1</span>; <br>
+                    <span class="tab"></span><span class="light">console.log</span>(<span class="pink">compteur</span>);
+                    <br>
+                    } <br>
+                    <span class="blue-light">
+                        // Résultat: <br>
+                        // 1 <br>
+                        // 2 <br>
+                        // 3 <br>
+                    </span>
+                </div>
+                <h3><span class="beige">for</span></h3>
+                <p>Une <span class="blue">boucle</span> for répète des <span class="turquoise">instructions</span>
+                    jusqu'à ce qu'une <span class="yellow">condition</span> donnée ne soit plus <span
+                        class="green">vérifiée</span>. La
+                    boucle for <span class="pink">JavaScript</span> ressemble beaucoup à celle utilisée en C ou en Java.
+                    Une boucle <span class="blue">for</span> s'utilise
+                    de la façon suivante :</p>
+                <div class="code">
+                    <span class="blue">for</span> (<span class="pink-dark">let</span> <span class="pink">i</span> =
+                    <span class="orange">0</span>; <span class="pink">i</span> &lt; <span class="orange">4</span>; <span
+                        class="pink">i</span>++) { <br>
+                    <span class="tab"></span><span class="light">console.log</span>(<span class="orange">i</span>); <br>
+                    } <br>
+                    <span class="blue-light">
+                        // Résultat: <br>
+                        // 0 <br>
+                        // 1 <br>
+                        // 2 <br>
+                        // 3 <br>
+                    </span>
+                </div>
+            </section>
+            <section>
+                <h2 id="jF"><span class="green">Les fonctions</span></h2>
+                <p>Les <span class="yellow">fonctions</span> font partie des <span class="beige">briques</span>
+                    fondamentales de <span class="blue">JavaScript</span>. Une fonction est une procédure <span
+                        class="green">JavaScript</span>, un ensemble d'instructions effectuant une <span
+                        class="pink">tâche</span> ou calculant une valeur. Afin d'utiliser une <span
+                        class="pink">fonction</span>, il est nécessaire de l'avoir auparavant <span
+                        class="turquoise">définie</span> au sein de la portée dans laquelle on souhaite <span
+                        class="beige">l'appeler</span>.</p>
+                <div class="code">
+                    <span class="blue">function</span> <span class="pink">calcSomme</span> (<span class="pink-dark">let</span> <span class="beige">a</span>, <span class="pink-dark">let</span> <span class="beige">b</span>) { <br>
+                    <span class="tab"></span>    <span class="blue">return</span> <span class="beige">a</span> + <span class="beige">b</span>; <span class="blue-light">// return permet de retourner la valeur</span> <br>
+                    } <br>
+                    <span class="light">console.log</span>( <span class="pink">calcSomme</span>(<span class="orange">10</span>, <span class="orange">5</span>) ); <br>
+                    <span class="blue-light">// Résultat: 15</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer id="footer">
+        <p>Copyright 2021 - Yahia - Blondin - Axel</p>
+    </footer>
+    <button id="btn-hack">hack</button>
+</body>
+
+</html>
+
+<!-- 15/10/21 -->

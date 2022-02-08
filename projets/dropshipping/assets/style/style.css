@@ -1,0 +1,145 @@
+/* font */
+font-family { font-family: Roboto-ThinItalic; src: url("/projets/dropshipping/assets/font/Roboto-ThinItalic.ttf"); 
+}
+
+p{
+    font-family: Roboto-ThinItalic;
+}
+
+.color{
+    color: black;
+}
+
+.text{
+    text-align: center;
+}
+/* font */
+/* body background */
+body {
+    background-image: url("/projets/dropshipping/assets/img/content/elegant2.png");
+}
+/* body background */
+
+/* firstNavbar */
+#colorbar{
+    background-color: rgb(223, 223, 223);
+}
+/* firstNavbar */
+
+/* secondNavbar */
+.secondBar{
+    display: flex;
+    justify-content: space-evenly;    
+}
+/* secondNavbar */
+
+/* containers/rows */
+.container{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-sm-3 ul{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+width: 100%;
+}
+/* containers/rows */
+
+/* ul/li */
+ul {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+/* ul/li */
+
+
+
+/* product */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#precisionOne{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.stock{
+    color: green;
+}
+
+.cart {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2rem;
+}
+/* product */
+
+/* info product */
+.flex-container {
+    display: flex;
+    
+}
+
+.test{
+    display: flex;
+}
+
+#info{
+    margin-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.up{
+    margin-bottom: 12rem;
+}
+
+.reviews{
+    text-align: center;
+}
+/* info product */
+
+/* footer */
+.footer{
+    background-color: black;
+}
+
+.footerh3{
+    color: white;
+    align-items: center;
+}
+
+.colorTwo{
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.thirdBar{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;   
+}
+/* footer */

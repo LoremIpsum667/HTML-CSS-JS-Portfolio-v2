@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Notepad";
+  src: url(/projets/Memory/assets/font/Notepad.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Notepad";
+  color: aliceblue;
+}
+
+body {
+  background: url(/projets/Memory/assets/img/4.gif);
+  background-size: cover;
+  color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 80px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 30px;
+}
+/* .buttons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin-left: 70px;
+  margin-right: 50px;
+  font-size: 25px;
+  cursor: pointer;
+} */
+
+.playerChoice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.difficulty {
+  border-radius: 70px;
+}
+
+.hard {
+  color: crimson;
+}
+
+.warning {
+  color: gold;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20rem;
+  background-color: black;
+  margin-right: 29rem;
+  margin-left: 29rem;
+  opacity: 0.7;
+}

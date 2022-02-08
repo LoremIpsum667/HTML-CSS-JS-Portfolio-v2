@@ -1,0 +1,135 @@
+@media screen and (max-width: 1250px) {
+  nav ul a li {
+    font-size: .7rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  nav {
+    justify-content: flex-start;
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container aside {
+    display: none;
+  }
+
+  .container main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul a li {
+    padding: 1rem .5rem;
+    font-size: .7rem;
+  }
+
+  .container main h2 {
+    font-size: 2.3rem !important;
+  }
+  
+  .container main p {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  .container main img {
+    width: 100%;
+  }
+
+  .container main .img-langage img {
+    width: 200px;
+  }
+
+  .container main .img-langage p {
+    width: 100%;
+  }
+
+  .first_div {
+    flex-direction: column;
+  }
+
+  .container main h2 {
+    margin: 0;
+  }
+
+  .container main img {
+    display: block;
+    width: 300px;
+  }
+
+  .timeline{
+    width: 100% !important;
+  }
+
+  .container main h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  header {
+    height: 100px;
+  }
+
+  header h1 {
+    font-size: .5rem;
+  }
+
+  nav ul li {
+    padding: .5rem;
+  }
+
+  nav ul a li {
+    font-size: .4rem;
+    padding: 1rem .4rem;
+  }
+
+  .container main p {
+    font-size: 1rem;
+  } 
+
+  .sectioncss {
+    flex-direction: column;
+  }
+
+  .container main h2 {
+    font-size: 1.5rem !important;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    height: 100px;
+  }
+
+  header h1 {
+    font-size: .4rem;
+  }
+
+  nav ul a li {
+    font-size: .3rem;
+    padding: 1rem .2rem;
+  }
+}
+

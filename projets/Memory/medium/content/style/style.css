@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Notepad";
+  src: url(/projets/Memory/medium/content/font/Notepad.otf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url(/projets/Memory/medium/content/img/11.gif);
+  background-size: cover;
+}
+* {
+  color: mintcream;
+  font-family: "Notepad";
+}
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* background-color: black; */
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+p{
+  text-align: center;
+  font-size: 25px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info-div {
+  position: relative;
+  right: 80px;
+}
+h2 {
+  margin-top: 3rem;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+
+#tryAgain {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#win {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#match {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.bismillah {
+  width: 105px;
+  height: 200px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#resetGame {
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resB{
+  margin-bottom: 15px;
+  margin-left:  30px;
+}
+
+#count{
+ margin-left: 79rem;
+ font-size: 25px;
+}
